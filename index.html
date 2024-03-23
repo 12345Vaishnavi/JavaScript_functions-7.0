@@ -14,7 +14,8 @@
 
       function areaOfCircle(radius){
       const area = (2 * 3.14 * radius );
-      console.log(`Area of Circle : ${area} sq.meter`);
+      console.log(`Area of Circle : ${area} sq.meter\n\n`);
+      document.write(`Area of Circle : ${area} sq.meter` + "<br><br>" );
       return area;
      }
 
@@ -27,7 +28,8 @@
       function areaOfCircle1(){
       let radius1 = 9;
       const area1 = (2 * 3.14 * radius1 );
-      console.log(`Area of Circle : ${area1} sq.meter`);
+      console.log(`Area of Circle : ${area1} sq.meter\n\n`);
+      document.write(`Area of Circle : ${area1} sq.meter\n\n` + "<br><br>" );
       return area1;
      }
 
@@ -37,15 +39,25 @@
 
       function areaOfCircle2(radius2){
       const area2 = (2 * 3.14 * radius2 );
-      console.log(`Area of Circle : ${area2} sq.meter`);
-   
+      console.log(`Area of Circle : ${area2} sq.meter\n\n`);
+      document.write(`Area of Circle : ${area2} sq.meter\n\n` + "<br><br>" );
+
     }
 
     areaOfCircle2(12);
 
      // No Argument And No Return //
 
+     radius = 15;
+     const pi = 3.14;
+     function areaOfCircle3(){
+     const area3 = 2 * pi * radius;
+     console.log(`Area of Circle : ${area3} sq.meter\n\n`);
+     document.write(`Area of Circle : ${area3} sq.meter\n`);
+     
+     }
 
+     areaOfCircle3();
 
     </script>
 </body>
